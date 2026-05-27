@@ -1,0 +1,72 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+
+
+##  추가된  제외 사항 ##
+
+src/main/java/**/*.txt
+src/main/java/com/nc/stock/project/test/*
+
+##설정파일
+src/main/resources/config/*
+src/main/resources/data/*
+src/main/resources/mapper/*
+src/main/resources/static/*
+src/main/resources/templates/*
+src/main/resources/application.yml.bak
+src/main/resources/application.properties
+src/main/resources/application-dev.yaml
+src/main/resources/application-dev.yaml.example
+#src/main/resources/application-prodh2.yaml
+#src/main/resources/application-prodgroom.yaml
+#src/main/resources/application-prod.yaml
+#src/main/resources/application-test.yaml
+#src/main/resources/config.properties
+src/main/resources/config.yaml
+
+## 기타파일
+config/
+
+##엘라스틱 키##
+todo.pem
+
+##리드미#
+readme.txt
+
+
